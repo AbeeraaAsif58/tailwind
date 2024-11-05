@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <div class="parent h-[10vh] w-full border-b border-gray-300 px-4">
+      <div class="nav w-full h-full flex justify-between items-center font-semibold">
+        <div class="mid cursor-pointer text-lg flex items-center gap-2">
+          <i class="ri-shake-hands-line text-gray-800 text-2xl"></i>
+          <span class="text-gray-800">AngleList</span>
+          <span class="text-blue-500">Venture</span>
+        </div>
+        <div class="mid text-sm cursor-pointer hidden md:block">
+          <ul class="flex gap-6 text-gray-700">
+            <li class="hover:text-blue-600 ">For Investors <i class="ri-arrow-down-s-line"></i></li>
+            <li class="hover:text-blue-600 ">For Fund Managers <i class="ri-arrow-down-s-line"></i></li>
+            <li class="hover:text-blue-600 ">For Founders <i class="ri-arrow-down-s-line"></i></li>
+            <li class="hover:text-blue-600 ">Company <i class="ri-arrow-down-s-line"></i></li>
+            <li class="hover:text-blue-600 ">Help <i class="ri-arrow-down-s-line"></i></li>
+          </ul>
+        </div>
+        <div class="menu md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="text-gray-700 cursor-pointer">
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </div>
+        <div class="buttons flex gap-4 hidden md:flex">
+          <button class="h-8 w-20 border-2 border-blue-800 text-blue-800 font-medium text-sm rounded hover:bg-blue-100 ">Log in</button>
+          <button class="h-8 w-20 bg-blue-800 text-white font-medium text-sm rounded hover:bg-blue-700 ">Join</button>
+        </div>
+      </div>
+    </div>
+    <main class="px-6 cursor-pointer py-10 md:px-20 lg:px-40 mt-[5%]">
+        <div class="flex flex-col lg:flex-row gap-10 items-center">
+          <div class="text-center lg:text-left lg:w-1/2 space-y-4">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900">
+              Invest deal-by-deal in<br> world-changing startups
+            </h1>
+            <p class="cursor-pointer text-gray-600 text-lg">
+              Join leading investors funding the next wave of world-changing startups.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <button class="bg-blue-800 text-white py-3 px-6 rounded font-medium hover:bg-blue-500">Invest now</button>
+              <button class="text-blue-800 font-medium py-3 px-6 rounded hover:underline">Start your own fund →</button>
+            </div>
+          </div>
+
+          <div class=" lg:w-1/2  ">
+            <div class=""><img src="nav.png" alt="pic"></div>
+          </div>
+</body>
+</html>
